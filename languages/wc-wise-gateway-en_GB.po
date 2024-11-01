@@ -1,0 +1,337 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-09-02 19:57+0300\n"
+"PO-Revision-Date: 2021-09-02 19:59+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: includes/class-ew-gateway-wise.php:42
+msgid "Wise bank transfer"
+msgstr "Wise bank transfer"
+
+#: includes/class-ew-gateway-wise.php:43
+msgid ""
+"Customers pay by banking domestically with minimal fees, toward a local (to "
+"them) Wise account linked to your bank account (usually in another country)."
+msgstr ""
+"Customers pay by banking domestically with minimal fees, toward a local (to "
+"them) Wise account linked to your bank account (usually in another country)."
+
+#: includes/class-ew-gateway-wise.php:107
+msgid "Enable/Disable"
+msgstr "Enable/Disable"
+
+#: includes/class-ew-gateway-wise.php:109
+msgid "Enable Wise payments"
+msgstr "Enable Wise payments"
+
+#: includes/class-ew-gateway-wise.php:113
+msgid "Title"
+msgstr "Title"
+
+#: includes/class-ew-gateway-wise.php:115
+msgid "Payment method title that the customer sees in the checkout page"
+msgstr "Payment method title that the customer sees in the checkout page"
+
+#: includes/class-ew-gateway-wise.php:116
+msgid "Pay by Bank"
+msgstr "Pay by Bank"
+
+#: includes/class-ew-gateway-wise.php:120
+msgid "Description"
+msgstr "Description"
+
+#: includes/class-ew-gateway-wise.php:122
+msgid "Payment method description that the customer sees in the checkout page"
+msgstr "Payment method description that the customer sees in the checkout page"
+
+#: includes/class-ew-gateway-wise.php:123
+msgid ""
+"International transfers with domestic fees. Powered by <a href='https://wise."
+"com' target='_blank'>Wise&reg;</a>"
+msgstr ""
+"International transfers with domestic fees. Powered by <a href='https://wise."
+"com' target='_blank'>Wise&reg;</a>"
+
+#: includes/class-ew-gateway-wise.php:127
+msgid "Instructions"
+msgstr "Instructions"
+
+#: includes/class-ew-gateway-wise.php:129
+msgid ""
+"Payment instructions that will be included to the thank-you page and e-mails"
+msgstr ""
+"Payment instructions that will be included to the thank-you page and e-mails"
+
+#: includes/class-ew-gateway-wise.php:130
+msgid ""
+"- Please choose a receiving account that best fits your situation, and wire "
+"the funds using your banking facility<br>\n"
+"- The receiving account type is: <i>Checking</i><br>\n"
+"- As payment reference use your <i>Order number</i><br>\n"
+"- Please mind orders won't be shipped until funds have cleared our end.\n"
+msgstr ""
+"- Please choose a receiving account that best fits your situation, and wire "
+"the funds using your banking facility<br>\n"
+"- The receiving account type is: <i>Checking</i><br>\n"
+"- As payment reference use your <i>Order number</i><br>\n"
+"- Please mind orders won't be shipped until funds have cleared our end.\n"
+
+#: includes/class-ew-gateway-wise.php:138
+msgid "Account holder"
+msgstr "Account holder"
+
+#: includes/class-ew-gateway-wise.php:140
+msgid ""
+"Full legal name of the Wise registrant. Will be included to the thank-you "
+"page and e-mails as the beneficiary of all accounts"
+msgstr ""
+"Full legal name of the Wise registrant. Will be included to the thank-you "
+"page and e-mails as the beneficiary of all accounts"
+
+#: includes/class-ew-gateway-wise.php:148
+msgid "Wipe configuration"
+msgstr "Wipe configuration"
+
+#: includes/class-ew-gateway-wise.php:150
+msgid "Wipe all accounts data when uninstalling this plugin"
+msgstr "Wipe all accounts data when uninstalling this plugin"
+
+#: includes/class-ew-gateway-wise.php:191
+msgid "Preview"
+msgstr "Preview"
+
+#. translators: %s: default limit of fetched orders
+#: includes/class-ew-gateway-wise.php:194
+#, php-format
+msgid ""
+"Preview the 'Payment details' page from the last %s Orders placed with Wise "
+"as the chosen method of payment (opens in new window)"
+msgstr ""
+"Preview the 'Payment details' page from the last %s Orders placed with Wise "
+"as the chosen method of payment (opens in new window)"
+
+#: includes/class-ew-gateway-wise.php:231
+#: includes/class-ew-gateway-wise.php:439
+msgid "Routing number"
+msgstr "Routing number"
+
+#: includes/class-ew-gateway-wise.php:234
+msgid "Wise Accounts"
+msgstr "Wise Accounts"
+
+#: includes/class-ew-gateway-wise.php:236
+msgid ""
+"Details of the receiving accounts linked to the balances. Only some may "
+"appear in the thank-you page and e-mails depending on varied criteria"
+msgstr ""
+"Details of the receiving accounts linked to the balances. Only some may "
+"appear in the thank-you page and e-mails depending on varied criteria"
+
+#: includes/class-ew-gateway-wise.php:246
+msgid "Scope"
+msgstr "Scope"
+
+#: includes/class-ew-gateway-wise.php:247
+msgid ""
+"Comma-separated list of WC 2-letter country or continent codes. Determines "
+"when an account becomes visible in the thank-you page and emails. An empty "
+"field means always visible, but only when no other more specific accounts "
+"(by country, continent, or currency) are already visible"
+msgstr ""
+"Comma-separated list of WC 2-letter country or continent codes. Determines "
+"when an account becomes visible in the thank-you page and emails. An empty "
+"field means always visible, but only when no other more specific accounts "
+"(by country, continent, or currency) are already visible"
+
+#: includes/class-ew-gateway-wise.php:250
+#: includes/class-ew-gateway-wise.php:472
+msgid "Currency"
+msgstr "Currency"
+
+#: includes/class-ew-gateway-wise.php:251
+msgid ""
+"Free text that should also include the WC 3-letter currency code for the "
+"given balance"
+msgstr ""
+"Free text that should also include the WC 3-letter currency code for the "
+"given balance"
+
+#: includes/class-ew-gateway-wise.php:253
+#: includes/class-ew-gateway-wise.php:476
+msgid "Account number"
+msgstr "Account number"
+
+#: includes/class-ew-gateway-wise.php:254
+msgid ""
+"'Account number' + 'Routing number' usually refer to local transfers. "
+"'Account number' + 'BIC' to international"
+msgstr ""
+"'Account number' + 'Routing number' usually refer to local transfers. "
+"'Account number' + 'BIC' to international"
+
+#: includes/class-ew-gateway-wise.php:257
+msgid ""
+"Same as ACH, Sort Code, ABA, BSB, etc. Proper term renders in frontend as "
+"per billing country conventions"
+msgstr ""
+"Same as ACH, Sort Code, ABA, BSB, etc. Proper term renders in frontend as "
+"per billing country conventions"
+
+#: includes/class-ew-gateway-wise.php:259
+#: includes/class-ew-gateway-wise.php:484
+msgid "IBAN"
+msgstr "IBAN"
+
+#: includes/class-ew-gateway-wise.php:260
+msgid "Supersedes 'Account number' in Europe"
+msgstr "Supersedes 'Account number' in Europe"
+
+#: includes/class-ew-gateway-wise.php:262
+#: includes/class-ew-gateway-wise.php:626
+msgid "BIC"
+msgstr "BIC"
+
+#: includes/class-ew-gateway-wise.php:263
+msgid ""
+"Same as SWIFT outside the US. Proper term renders in frontend as per billing "
+"country conventions"
+msgstr ""
+"Same as SWIFT outside the US. Proper term renders in frontend as per billing "
+"country conventions"
+
+#: includes/class-ew-gateway-wise.php:265
+msgid "Branch address"
+msgstr "Branch address"
+
+#: includes/class-ew-gateway-wise.php:266
+msgid ""
+"Name and address of the Wise branch for the given balance. Sometimes, better "
+"write the partner's bank, especially within the US"
+msgstr ""
+"Name and address of the Wise branch for the given balance. Sometimes, better "
+"write the partner's bank, especially within the US"
+
+#: includes/class-ew-gateway-wise.php:268
+#: includes/class-ew-gateway-wise.php:496
+msgid "Remarks"
+msgstr "Remarks"
+
+#: includes/class-ew-gateway-wise.php:269
+msgid "Inform customers of any fine-print for usage of a given Wise account"
+msgstr "Inform customers of any fine-print for usage of a given Wise account"
+
+#: includes/class-ew-gateway-wise.php:304
+msgid "Countries"
+msgstr "Countries"
+
+#: includes/class-ew-gateway-wise.php:305
+msgid "Continents"
+msgstr "Continents"
+
+#: includes/class-ew-gateway-wise.php:306
+msgid "Currencies"
+msgstr "Currencies"
+
+#: includes/class-ew-gateway-wise.php:309
+msgid "+ Add account"
+msgstr "+ Add account"
+
+#: includes/class-ew-gateway-wise.php:309
+msgid "Remove selected account(s)"
+msgstr "Remove selected account(s)"
+
+#: includes/class-ew-gateway-wise.php:441
+msgid "SWIFT"
+msgstr "SWIFT"
+
+#: includes/class-ew-gateway-wise.php:492
+msgid "Bank"
+msgstr "Bank"
+
+#: includes/class-ew-gateway-wise.php:534
+msgid "Payment details"
+msgstr "Payment details"
+
+#: includes/class-ew-gateway-wise.php:539
+msgid "Beneficiary"
+msgstr "Beneficiary"
+
+#: includes/class-ew-gateway-wise.php:559
+msgid "Awaiting Wise payment."
+msgstr "Awaiting Wise payment."
+
+#: includes/class-ew-gateway-wise.php:588
+msgid "BSB"
+msgstr "BSB"
+
+#: includes/class-ew-gateway-wise.php:593
+msgid "Transit number"
+msgstr "Transit number"
+
+#: includes/class-ew-gateway-wise.php:596
+msgid "Institution number"
+msgstr "Institution number"
+
+#: includes/class-ew-gateway-wise.php:601
+msgid "Sort code"
+msgstr "Sort code"
+
+#: includes/class-ew-gateway-wise.php:606
+msgid "IFSC"
+msgstr "IFSC"
+
+#: includes/class-ew-gateway-wise.php:611
+msgid "Branch sort"
+msgstr "Branch sort"
+
+#: includes/class-ew-gateway-wise.php:616
+#: includes/class-ew-gateway-wise.php:621
+msgid "Bank code"
+msgstr "Bank code"
+
+#: includes/class-ew-gateway-wise.php:631
+msgid "Branch code"
+msgstr "Branch code"
+
+#: includes/class-ew-gateway-wise.php:688
+msgid "Choose Wise Order -->"
+msgstr "Choose Wise Order -->"
+
+#: includes/class-ew-gateway-wise.php:690
+msgid "No Wise Orders found"
+msgstr "No Wise Orders found"
+
+#. translators: %s: plugin name
+#: wc-wise-gateway.php:43
+#, php-format
+msgid ""
+"<b>%s</b> requires of <b>WooCommerce</b> installed and active in order to "
+"operate."
+msgstr ""
+"<b>%s</b> requires of <b>WooCommerce</b> installed and active in order to "
+"operate."
+
+#. Plugin Name of the plugin/theme
+msgid "Gateway for Wise on WooCommerce"
+msgstr "Gateway for Wise on WooCommerce"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/wc-wise-gateway"
+msgstr "https://wordpress.org/plugins/wc-wise-gateway"
+
+#. Description of the plugin/theme
+msgid "WooCommerce payment gateway for Wise (formerly TransferWise)"
+msgstr "WooCommerce payment gateway for Wise (formerly TransferWise)"
+
+#. Author of the plugin/theme
+msgid "alx359"
+msgstr "alx359"
